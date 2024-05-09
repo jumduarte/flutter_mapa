@@ -39,6 +39,30 @@ class _PrincipalState extends State<Principal> {
                   ),
                 ],
               ),
+              MarkerLayer(
+                markers: [
+                  Marker(
+                    width: 80.0,
+                    height: 80.0,
+                    point: LatLng(-23.5945, - 48.053923),
+                    builder: (ctx) => Container(
+                      child: Icon(Icons.airplanemode_on_outlined, color: Colors.teal),
+                    ),
+                  ),
+                ],
+              ),
+              MarkerLayer(
+                markers: [
+                  Marker(
+                    width: 80.0,
+                    height: 80.0,
+                    point: LatLng(23.1165, - 82.388223),
+                    builder: (ctx) => Container(
+                      child: Icon(Icons.airplanemode_on_outlined, color: Colors.teal),
+                    ),
+                  ),
+                ],
+              ),
             ],
           )
         ],
